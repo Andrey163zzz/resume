@@ -1,5 +1,1 @@
-# Resume
-
-## Это мое резюме 
-
-## [Моя первая работа](https://andrey163zzz.github.io/resume/)
+# [Моя первая работа](https://andrey163zzz.github.io/resume/)

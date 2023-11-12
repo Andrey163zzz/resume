@@ -4,81 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+
+@media (max-width:650px) {
+    .infoblock {
+        display: block;
+        text-align: center;
+    }
+}
+</style>
 </head>
 <body>
-    <img src="html5.png" width="150" alt="HTML5">
+    <div class="container">
 
-    <H1>Andrey Zemskov</H1>
+     <div class="infoblock">
+        <img class="img" src="gigachad.jpg" alt="I am">
+        
+        <div class="info-text block">
+            <h1>Andrey Zemskov</h1>
+            <br>
+            <p>Я изучаю <strong><em>программирование</em></strong> для создания своего <strong><em>интернет проекта</em></strong> в этой области.</p>
 
-    <p>Я изучаю <strong><em>программирование</em></strong> для создания своего <strong><em>интернет проекта</em></strong> в этой области.</p>
+            <p>Также я увлекаюсь <strong><em>спортом, музыкой и разработкой ИИ.</em></strong> Мне доставляет это удовольствие.</p>
+
+        <br>
+        <div class="social"> 
+     <h3>Список социальных сетей:</h3>
+         <br>
+            <a href="https://vk.com/feed" target="_blank">Вконтакте</a> 
+|
+            <a href="https://www.youtube.com/@user-rb8ux1no6j" target="_blank">YouTube</a>
+|
+            <a href="@Andrey163tg" target="_blank">Telegram</a>
+        </div>
+        </div>    
+     </div>
+
     <br>
-    <p>Также я увлекаюсь <strong><em>спортом, музыкой и разработкой ИИ.</em></strong> Мне доставляет это удовольствие.</p>
 
-    <H4>Список социальных сетей</H4>
-     <a href="https://vk.com/feed" target="_blank">Вконтакте</a> 
-     ///
-     <a href="https://www.youtube.com/@user-rb8ux1no6j" target="_blank">YouTube
-     ///
-     </a> <a href="@Andrey163tg" target="_blank">Telegram</a>
-
-<h3>Мои хобби</h3>
-
-     <ol>
-        <li>Спорт</li>
-        <li>Музыка</li>
-        <li><strong>Программирование</strong></li>
-        <li>Работа с ИИ</li>
-     </ol>
-
-<h3>Опыт работы</h3>
-
-<table>
-<thead>
+        <div class="block bg-green">
+         <h2>Мои хобби</h2>
+         <br>
+         <ol class="list">
+             <li>Спорт</li>
+             <li>Музыка</li>
+             <li><strong>Программирование</strong></li>
+            <li>Работа с ИИ</li>
+         </ol>
+        </div>
+    <br>
+     <!-- <div class="block bg-red">
+ <h3>Опыт работы:</h3>
+ <br>
+ <br>
+ <br>
+ <table class="table">
+ <thead>
     <tr>
-        <th>Название</th>
+        <th>Сфера деятельности</th>
         <th>Должность</th>
         <th>Год</th>
     </tr>
-</thead>
-<tbody>
+ </thead>
+ <tbody>
     <tr>
          <td>МВД</td>
-         <td>Лейтенант</td>
+         <td>Младший лейтенант</td>
          <td>2019-2022</td>
      </tr>
      <tr>
         <td>ИИ Разработка</td>
-        <td>Тестеровщик ПО</td>
+        <td>Prompt Engineer</td>
         <td>2022</td>
      </tr>
      <tr>
         <td>IT</td>
-        <td>Программист</td>
+        <td>Junior разработчик</td>
         <td>2023</td>
      </tr>
-</tbody>
-</table>
-
-<h3>Связаться со мной</h3>
-
-     <form>
-        <div>
+ </tbody>
+ </table>
+ </div> -->
+ <br>
+ <div class="block">
+ 
+     <form class="form">
+        <h2>Связаться со мной:</h2>
+        <br>
+        <br>
+        <div class="form-row">
+        <div class="form-group">
             <label for="text">Ваше имя:</label>
             <input type="text" id="text" placeholder="Введите имя">
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="email">Ваш Email:</label>
             <input type="email" id="email" placeholder="Введите email">
         </div>
-
-        <div>
+     </div>
+        <div class="form-group">
             <label for="massage">Ваше сообщение:</label>
-            <br>
             <textarea id="massage" cols="25" rows="10" placeholder="Введите сообщение..."></textarea>
         </div>
 
-        <button type="submit">Отправить!</button>
+        <button class="btn" type="submit">Отправить!</button>
      </form>
+    </div>
+</div>
 </body>
 </html>
